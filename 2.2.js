@@ -8,9 +8,9 @@ if(min > max){
 }
 
 else if ((min < current)||( current < max)) {
-    alert("between")
+    alert("the current is between min and max")
 }
 
 else{
-    alert('superior or inferior')
+    alert('the current is superior to max or inferior to min')
 }
