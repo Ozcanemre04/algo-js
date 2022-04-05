@@ -1,13 +1,13 @@
-var min = prompt("min");
-var max = prompt('max');
-var current = prompt('current');
+var min = Number(prompt("min"));
+var max = Number(prompt('max'));
+var current =Number(prompt('current'));
 
 
 if(min > max){
     alert("error")
 }
 
-else if ((current < max) &&(current > min)) {
+else if ((min < current)&&( current < max)) {
     alert("between")
 }
 
