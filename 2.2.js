@@ -7,7 +7,7 @@ if(min > max){
     alert("error")
 }
 
-else if ((min < current)&&( current < max)) {
+else if ((min < current)||( current < max)) {
     alert("between")
 }
 
