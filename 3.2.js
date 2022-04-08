@@ -20,3 +20,27 @@ for (let n = 0; n < x.length; n++) {
 }
 
 console.log(summ);
+
+
+
+
+//other method
+
+
+var z =[100,101,102];
+ let somme =0;
+
+ for(let n of z){
+     somme+=n/z.length;
+ }
+ console.log(somme);
+
+
+
+ var a =[1,2,3,4,5];
+ let som = 0;
+
+ for (let elem of a){
+     som+=elem/a.length;
+ }
+ console.log(som);
