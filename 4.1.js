@@ -10,13 +10,6 @@ console.log(calcSurface(5,4));
 
 
 let a = Number(prompt("lenght?"));
-let b = Number(prompt('width'));
+let b = Number(prompt('width?'));
 
-
-function calcSurfaace(){
-    
-    
-  return a*b;
-}
-
-alert(calcSurfaace(a,b));
+alert(calcSurface(a,b));

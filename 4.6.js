@@ -1,3 +1,4 @@
+/*recursive*/ 
 function factorial(a){
     if(a==0){
         return 1;
@@ -9,3 +10,5 @@ function factorial(a){
 
  
      console.log(factorial(5));
+
+  
