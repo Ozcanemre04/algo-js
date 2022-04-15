@@ -4,18 +4,24 @@ function rand10(){
 }
  
  console.log(rand10());
+ let b = Number(prompt('number'))
+function multiRand(n){
 
- let a = Number(prompt("number"));
- 
- function multiRand(n){
-  return Array.from({length:n},() => rand10());
-     
-     
+    let a =[];
+    for(let i = 0;i<n;i++){
+     a.push(rand10());
+      
+    }
+    return a;
+}
 
- }
+console.log(multiRand(5));
 
- console.log(multiRand(5));
- console.log(multiRand(a));
+console.log(multiRand(b));
+
+
+
+
   
 
 
